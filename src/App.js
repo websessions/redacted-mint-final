@@ -95,7 +95,12 @@ class App extends React.Component {
 
     const account = "test"; //await this.secretjs.getAccount(this.state.account.address);
     this.setState({ account });
+    
+    window.location.replace('https://www.redactedmint.club/')
+    
   }
+ 
+
 
   async setupKeplr() {
     // Define sleep
